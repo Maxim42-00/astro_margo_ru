@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Верстка </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=devise-width, initial-scale=1" />
+    <link href="img/logo.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="screen" id="s0">
+        <div id="bgr"> </div> 
+        <img src="img/bg-bunner-2.jpg" id="static_bg" />
+    </div>
+    <div class="screen" id="s1">
+        <div id="header">
+            <div id="ref">
+                <div>Page1</div>
+                <div>Page2</div>
+                <div>Page3</div>
+            </div>
+        </div>
+        <div class="subheader" id="topheader">
+            <div id="openMenu">
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+                <div class="menu_bar"></div>
+            </div>
+            <div id="logo"> <img src="img/mary.jpg" /> Astro-Margo.ru </div>
+            <nav>
+                <div class="goto">HOME</div>
+                <div class="goto">ABOUT</div>
+                <div class="goto">TIPOGRAPHY</div>
+                <div class="goto">CONTACTS</div>
+            </nav>
+            <div class="book_now"> BOOK NOW </div>
+        </div>
+    </div>
+    <div class="screen" id="s2">
+        <div>
+            <img src="img/cooker_full.png" id="cooker" class="_left_img" />
+        </div>
+        <div class="_right_img" id="desc_div">
+            <div id="desc_title"> About Us </div>
+            <div id="description"> Pesto is a family owned and operated Italian Restaurant offering a combination of fresh ingredients and authentic Italian cooking.
+                                   <br /><br /> We will make sure you are served the most authentic and fresh Italian dishes, while offering the best customer service. Our kitchen is committed to providing our guests with the best Italian Cuisine. 
+            </div>
+            <div id="sign"> <img src="img/sign.png" /> </div>
+        </div>
+    </div>
+    <div class="screen" id="s3">
+        <div id="featured" class="_upper_img">
+            <div id="featured_title"> Featured Offers </div>
+            <p id="featured_text"> We offer a great variety of the best Italian dishes to our visitors and guests. Below are some of our most popular main dishes and desserts. </p>
+        </div>
+        <br />
+        <div id="featured_images_div">
+            <div class="_down_img">
+                <div style="background-image: url('img/ravioli.png');" class="featured_img"> </div>
+                <p> Ravioli </p>
+                <p> $8 </p>
+            </div>
+            <div class="_down_img">
+                <div style="background-image: url('img/black_pasta.png');" class="featured_img"> </div>
+                <p> Black Pasta </p>
+                <p> $13 </p>
+            </div>
+            <div class="_down_img"> 
+                <div style="background-image: url('img/gelato.png');" class="featured_img"> </div>
+                <p> Gelato </p>
+                <p> $4 </p>
+            </div>
+        </div>
+    </div>
+    <div id="s4" class="screen">
+        <h2> Our Restaurant Menu </h2>
+        <div id="rest_menu">
+            <div id="rest_menu_header">
+                <div>MAINS</div>
+                <div>DESSERTS</div>
+                <div>DRINKS</div>
+            </div>
+            <div id="rest_menu_body">
+            </div>
+        </div>
+    </div>
+    <div id="s5">
+        <div id="gallery">
+            <div>
+                <div id="b00" class="b0"> <div id="a00" class="a0 _upper_img"></div> </div>
+                <div id="b01" class="b0"> <div id="a01" class="a0 _upper_img"></div> </div>
+                <div id="b02" class="b0"> <div id="a02" class="a0 _upper_img"></div> </div>
+            </div>
+            <div>
+                <div id="b10" class="b1"> <div id="a10" class="a1 _down_img"></div> </div>
+                <div id="b11" class="b1"> <div id="a11" class="a1 _down_img"></div> </div>
+            </div>
+        </div>
+    </div>
+    <div id="s6" class="screen">
+        
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/babel" src="react_script.js"></script>
+
+
+
+</body>
+
+</html>
